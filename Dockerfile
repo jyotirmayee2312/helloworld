@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 80
 
 # Start the Flask application on port 80
-CMD [ "python", "hello.py" ]
+CMD [ "python", "hello.py" , "0.0.0.0:80" ]
